@@ -1,0 +1,47 @@
+.NavBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .Categories {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Option {
+    padding: 8px 16px;
+    margin: 0 8px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .ActiveOption {
+    padding: 8px 16px;
+    margin: 0 8px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #ffffff;
+    border-radius: 4px;
+  }
+  
+  .CartWidget {
+    margin-left: 16px;
+    color: #ffffff;
+  }
+  
+  .logo_carrito_nav {
+    color: #ffffff;
+
+  }

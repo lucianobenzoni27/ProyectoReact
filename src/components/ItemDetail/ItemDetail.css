@@ -1,0 +1,46 @@
+
+.CardItem {
+    width: 300px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .HeaderItem {
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  
+  .ItemHeader {
+    font-size: 24px;
+    color: #333333;
+  }
+  
+  .ItemImg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+    border-radius: 8px;
+  }
+  
+  .Info {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 8px;
+  }
+  
+  .ItemFooter {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .CardItem {
+      width: 100%;
+    }
+  }
+  
+  
